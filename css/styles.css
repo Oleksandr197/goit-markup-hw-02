@@ -1,0 +1,48 @@
+.logo-blue {
+  color: #2196f3;
+}
+.logo-black {
+  color: black;
+}
+.logo-white {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.button-primary {
+  background-color: #2196f3;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 3px;
+}
+.footer {
+  background: #2f303a;
+  width: 1600px;
+  height: 290px;
+  display: flex;
+  align-items: flex-start;
+}
+.foter-add {
+  width: 231px;
+  height: 81px;
+  padding-left: 0px;
+  padding-top: 100px;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+}
+.team-box {
+  display: flex;
+  align-items: flex-start;
+}
+.client {
+  display: flex;
+  align-items: flex-start;
+}
