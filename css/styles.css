@@ -1,3 +1,9 @@
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 .logo-blue {
   color: #2196f3;
 }
@@ -7,18 +13,25 @@
 .logo-white {
   color: white;
 }
-a {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-}
 .button-primary {
   background-color: #2196f3;
   color: #ffffff;
   display: inline-block;
   padding: 10px;
   border-radius: 3px;
+}
+.link {
+  color: #000000;
+}
+/* кнопки, ссылки */
+.list-links .link:hover,
+.list-links .link:focus {
+  color: #2196f3;
+}
+/* tel, mail */
+.header-address-links .link:hover,
+.header-address-links .link:focus {
+  color: #2196f3;
 }
 .footer {
   background: #2f303a;
@@ -27,22 +40,44 @@ a {
   display: flex;
   align-items: flex-start;
 }
-.foter-add {
+.footer-add {
   width: 231px;
   height: 81px;
   padding-left: 0px;
   padding-top: 100px;
 }
-
-.box {
-  display: flex;
-  align-items: flex-start;
-}
-.team-box {
-  display: flex;
-  align-items: flex-start;
-}
+.box,
+.team-box,
 .client {
   display: flex;
   align-items: flex-start;
+}
+/* Color section */
+.section-title {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-size: 16px;
+  line-height: 19px;
+}
+.text {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  font-size: 16px;
+  line-height: 19px;
+}
+.port-title {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-size: 18px;
+  line-height: 36px;
+}
+.port-text {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
 }
