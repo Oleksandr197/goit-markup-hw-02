@@ -9,50 +9,53 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
-    <title>Test Web studio</title>
+    <title>Test Web Studio</title>
   </head>
   <body>
     <header>
       <nav>
-        <h3>
-          <a class="logo" href="index.html">
-            <span class="logo-blue">Web</span>
-            <span class="logo-black">studio</span>
-          </a>
-        </h3>
-        <ul class="list-links">
-          <li><a href="index.html" class="link">Студия</a></li>
-          <li><a href="portfolio.html" class="link c">Портфолио</a></li>
-          <li><a href="/" class="link current">Контакты</a></li>
+        <a class="logo" href="./index.html">
+          <span class="logo-blue">Web</span>
+          <span class="logo-black">Studio</span>
+        </a>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="/" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="address-links">
-        <li>
-          <a href="mailto:info@devstudio.com" class="address-link">
-            <img src="./images/envelope.svg" alt="конверт" />info@devstudio.com
-          </a>
-        </li>
-        <li>
-          <a class="address-link" href="tel:+380961111111">
-            <img src="./images/vector.svg" alt="телефон" />+38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+
+      <p class="address-links">
+        <a href="mailto:info@devstudio.com" class="address-link">
+          <img src="./images/envelope.svg" alt="конверт" />info@devstudio.com
+        </a>
+      </p>
+
+      <p class="address-links">
+        <a class="address-link" href="tel:+380961111111">
+          <img src="./images/vector.svg" alt="телефон" />+38 096 111 11 11
+        </a>
+      </p>
     </header>
     <main>
-      <div>
-        <section class="hero">
-          <img src="./images/headerimg.jpg" alt="герой" />
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <a class="button-primary" href="/"> Заказать услугу </a>
-        </section>
-      </div>
+      <section>
+        <img src="#" alt="герой" />
+        <ul class="hero">
+          <li>
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          </li>
+          <li>
+            <a class="button-primary" href="/"> Заказать услугу </a>
+          </li>
+        </ul>
+      </section>
+
       <!--Features-->
       <section class="section">
         <ul class="features">
           <li>
             <img src="./images/antenna1.svg" alt="антена" />
-            <h3 class="features-title">Внимание к деталям</h3>
+            <h3 class="features-title">внимание к деталям</h3>
             <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -60,7 +63,7 @@
           </li>
           <li>
             <img src="./images/clock1.svg" alt="часы" />
-            <h3 class="features-title">Пунктуальность</h3>
+            <h3 class="features-title">пунктуальность</h3>
             <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -68,7 +71,7 @@
           </li>
           <li>
             <img src="./images/diagram1.svg" alt="диаграма" />
-            <h3 class="features-title">Планирование</h3>
+            <h3 class="features-title">планирование</h3>
             <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -76,7 +79,7 @@
           </li>
           <li>
             <img src="./images/astronaut1.svg" alt="астронавт" />
-            <h3 class="features-title">Современные технологии</h3>
+            <h3 class="features-title">современные технологии</h3>
             <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -90,20 +93,20 @@
         <ul class="box">
           <li>
             <img src="./images/box1.jpg" alt="ноут" width="370" />
-            <h3 class="title">Десктопные приложения</h3>
+            <h3 class="title">десктопные приложения</h3>
           </li>
           <li>
             <img src="./images/box2.jpg" alt="смарт" width="370" />
-            <h3 class="title">Мобильные приложения</h3>
+            <h3 class="title">мобильные приложения</h3>
           </li>
           <li>
             <img src="./images/box3.jpg" alt="монитор" width="370" />
-            <h3 class="title">Дизайнерские решения</h3>
+            <h3 class="title">дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!--Our team-->
-      <section class="section">
+      <section class="section-team">
         <h2 class="section-title">Наша команда</h2>
         <ul class="team-box">
           <!-- Николай Кучеренко-->
@@ -181,29 +184,31 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer-add">
+      <div>
         <h3>
-          <a class="logo" href="/">
+          <a class="logo" href="./index.html">
             <span class="logo-blue">Web</span>
-            <span class="logo-white">studio</span>
+            <span class="logo-white">Studio</span>
           </a>
         </h3>
-        <p class="footer-white">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="address-footer">
-          <li>
+        <address class="footer-add">
+          <p class="footer-white">г. Киев, пр-т Леси Украинки, 26</p>
+
+          <p class="address-footer">
             <a href="mailto:info@example.com" class="footer-link"
               >info@example.com</a
             >
-          </li>
-          <li>
+          </p>
+
+          <p class="address-footer">
             <a href="tel:+380991111111" class="footer-link"
               >+38 099 111 11 11</a
             >
-          </li>
-        </ul>
-      </address>
+          </p>
+        </address>
+      </div>
       <div>
-        <b class="text-white">Присоединяйтесь</b>
+        <b class="text-white">присоединяйтесь</b>
         <ul class="list-links">
           <li>
             <a href="" class="link"
@@ -229,11 +234,16 @@
         </ul>
       </div>
       <div>
-        <b class="text-white">Подпишитесь на рассылку</b>
-        <button class="buttom">E-mail</button>
-        <a class="button-foot-primary" href="/">
-          подписатся <img src="./images/iconsend.svg" alt="телеграм" />
-        </a>
+        <ul>
+          <b class="text-white">подпишитесь на рассылку</b>
+          <li><button class="button-mail">E-mail</button></li>
+          <li class="button-footer">
+            <a class="button-foot-primary" href="/">
+              Подписатся
+              <img class="imgtel" src="./images/iconsend.svg" alt="телеграм" />
+            </a>
+          </li>
+        </ul>
       </div>
       <p class="footer-text">2020 | Developed by GoIT Students</p>
     </footer>
